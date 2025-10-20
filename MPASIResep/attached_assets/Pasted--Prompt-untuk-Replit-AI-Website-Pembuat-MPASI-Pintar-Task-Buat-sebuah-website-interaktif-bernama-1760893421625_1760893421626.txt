@@ -1,0 +1,89 @@
+🧠 Prompt untuk Replit AI: Website Pembuat MPASI Pintar
+Task
+
+Buat sebuah website interaktif bernama "MPASI Pintar" yang membantu orang tua menemukan resep MPASI (Makanan Pendamping ASI) berdasarkan:
+
+Bahan makanan yang tersedia di kulkas (input manual pengguna),
+
+Usia anak (dalam bulan),
+
+Waktu yang tersedia untuk memasak.
+
+Website harus menampilkan hasil berupa:
+
+Rekomendasi beberapa resep MPASI yang sesuai.
+
+Daftar bahan dan alat yang dibutuhkan.
+
+Langkah-langkah pembuatan (instruksi sederhana dan jelas).
+
+Manfaat gizi (misalnya “kaya zat besi”, “mendukung perkembangan otak”).
+
+Link atau embed video tutorial dari sumber publik seperti YouTube, Instagram, atau sumber lain yang relevan.
+
+Fitur tambahan:
+
+Tampilan yang mudah digunakan oleh berbagai kalangan usia (orang tua muda hingga lansia).
+
+Desain responsif, bersih, dan ramah pengguna, dengan font besar, warna lembut, dan navigasi sederhana.
+
+Opsi untuk menyimpan resep favorit.
+
+Gunakan database lokal (JSON) atau API open-source resep bila tersedia.
+
+Context
+
+Tujuan website ini adalah membantu orang tua membuat MPASI dari bahan yang sudah ada tanpa perlu repot mencari resep di banyak tempat.
+Pengguna hanya perlu:
+
+Memasukkan daftar bahan di rumah.
+
+Memasukkan usia anak (misalnya 6 bulan, 9 bulan, 12 bulan).
+
+Menentukan waktu memasak (misalnya <15 menit, 30 menit, 1 jam).
+
+Website akan menampilkan resep yang aman, bergizi, dan direkomendasikan berdasarkan usia anak, dengan referensi nutrisi dari Kemenkes, IDAI, atau sumber gizi anak yang terpercaya.
+
+Teknologi yang disarankan:
+
+Frontend: React + Tailwind CSS
+
+Backend: Node.js + Express
+
+Database: JSON lokal (bisa dikembangkan ke MongoDB nanti)
+
+API optional: gunakan API publik resep makanan sehat
+
+Integrasi video: embed link dari YouTube/Instagram
+
+References
+
+Gunakan referensi dan data dari sumber resmi berikut:
+
+Buku: Pedoman Pemberian MPASI – Kemenkes RI
+
+IDAI (Ikatan Dokter Anak Indonesia): https://www.idai.or.id
+
+Kemenkes RI: https://www.kemkes.go.id
+
+WHO Complementary Feeding Guidelines: https://www.who.int
+
+Sumber video tutorial MPASI dari YouTube (misal: "MPASI 6 bulan – IDAI", "resep MPASI mudah dan cepat").
+
+Pastikan setiap rekomendasi resep menampilkan sumber atau disclaimer bahwa resep bersifat edukatif, bukan pengganti konsultasi dokter anak.
+
+Evaluate
+
+Hasil akhir harus memenuhi kriteria berikut:
+
+Website dapat diakses dan berjalan lancar di desktop dan mobile.
+
+Input bahan, usia, dan waktu menghasilkan resep relevan.
+
+Tampilan bersih, ramah pengguna, dan mudah dipahami oleh semua kalangan.
+
+Setiap resep mencantumkan manfaat gizi dan sumber referensi.
+
+Tautan video berfungsi dengan benar (embed atau hyperlink).
+
+Navigasi jelas: Home → Input → Hasil Resep → Detail Resep → Simpan Resep.
